@@ -54,4 +54,4 @@ Open the local URL provided by Vite.
 
 ## Author
 
-YOUR NAME
+Sameer Shahid
