@@ -1,57 +1,29 @@
 # Recipe Explorer
 
-Recipe Explorer is a React web application that allows users
-to discover recipes from around the world.
+A React-based recipe discovery application.
 
 ## Features
-
-- Search recipes by name.
-- Browse recipes by category.
-- View recipe ingredients and instructions.
-- Save recipes to Favorites.
-- Remove saved recipes.
-- Responsive design.
-- External API integration.
+- Browse recipes from TheMealDB API.
+- Search for recipes.
+- Explore recipe details and ingredients.
+- Save and remove favorite recipes.
+- Responsive interface.
 
 ## Technologies
-
 - React
 - Vite
-- JavaScript
-- Bootstrap
 - React Router
+- Bootstrap
 - React Icons
-- TheMealDB API
-- LocalStorage
+- TheMealDB REST API
 
-## Installation
-
-Clone the repository:
-
-git clone YOUR_GITHUB_REPOSITORY_URL
-
-Navigate into the project:
-
-cd recipe-explorer
-
-Install dependencies:
-
-npm install
-
-Start development server:
-
-npm run dev
+## Run locally
+1. Install Node.js.
+2. Run npm install.
+3. Run npm run dev.
 
 ## API
+Recipe data is retrieved from TheMealDB using fetch and async/await.
 
-This application uses TheMealDB REST API.
-
-https://www.themealdb.com/api.php
-
-## Running the application
-
-Open the local URL provided by Vite.
-
-## Author
-
-Sameer Shahid
+## Deployment
+The application is intended for deployment using GitHub Pages.
